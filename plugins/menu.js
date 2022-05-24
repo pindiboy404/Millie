@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
     before: `╭────────────────╮
-          ✪  *ᴍɪʟʟɪᴇ* ✪           
+          ✪  *ᴅᴀʀᴋ ᴜᴍᴀʀ* ✪           
 ╰────────────────╯
        
   `.trimStart(),
@@ -14,7 +14,7 @@ const defaultMenu = {
   body: '├ %cmd',
   footer: '└────\n',
   after: `
-   ᴹᴵᴸᴸᴵᴱ
+   ᴜᴍᴀʀ
    ᴹᴼᴰᵁᴸᴬᴿ ᵂᴴᴬᵀᔆᴬᴾᴾ ᴮᴼᵀ
 `,
 }
@@ -162,12 +162,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `HI,
+          "title": `HI ᴊᴀɴᴜ ,
 ╭━━━━━━ᆫ ᴍᴇɴᴜ ᄀ━━━━━━
 ┃ ⎆  Oi ${ucapan()}
 ┃ ⎆  *NAME* : ${name}
-┃ ⎆  *BOT*   : ᴍɪʟʟɪᴇ
-┃ ⎆  *OWNER* :  ɴᴇᴇʀᴀᴊ
+┃ ⎆  *BOT*   : ᴅᴀʀᴋ ᴜᴍᴀʀ 
+┃ ⎆  *OWNER* :  ᴜᴍᴀʀ
 ┃ ⎆  *PREFIX* : ᴍᴜʟᴛɪ ᴘʀᴇғɪx 
 ┃ ⎆  *WEEK* : ${week},
 ┃ ⎆  *DATE* : ${date},
@@ -181,7 +181,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
             {
               "rows": [
                 {
-                  "title": `ᴍɪʟʟɪᴇ`,
+                  "title": `ᴜᴍᴀʀ`,
                   "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
                   "rowId": ".git"
                 }, {
